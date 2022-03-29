@@ -7384,6 +7384,9 @@ textarea.form-control-lg {
 .ms-5 {
   margin-left: 3rem !important;
 }
+.ms-6{
+  margin-left: 20rem !important;
+}
 
 .ms-auto {
   margin-left: auto !important;
@@ -7495,6 +7498,9 @@ textarea.form-control-lg {
 
 .pt-5 {
   padding-top: 3rem !important;
+}
+.pt-6{
+  padding-top: 15rem !important;
 }
 
 .pe-0 {

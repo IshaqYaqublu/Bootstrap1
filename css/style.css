@@ -2,24 +2,62 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Red Hat Mono', monospace}
+    font-family: 'Red Hat Mono', monospace
+}
 
+.navbars{
+        width: 100%;
+}
 .header-mobile{
     display: none;
 }
 .header-windows{
     display: block;
+    width: 100%;
 }
-@media (max-width:768px){
+.second{
+    background-image: url(/Photos/slider3.jpg);
+
+    height: 40rem;
+}
+.second .second-all h1{
+    font-size: 6rem;
+}
+.third-right img{
+    width: 100%;
+    height: 450px;
+}
+
+
+@media (max-width:576px){
     .header-mobile{
         display: block;
-        font-size: 13px;
+        font-size: 12px;
     }
     .header-windows{
         display:none;
     }
+}
+.slider .box img{
+    width: 100%;
+}       
+.slider{
+    background-color: silver;
+}
+.slider .box{
+    border: 1px solid red;
     
-
+}
+.cars img{
+    width: 100%;
+}
+.cavan{
+        background-image: url(/Photos/statement-limo.jpg);
+        padding: 7rem 0;
+}
+.cavan .box{
+    width: 60%;
+    margin: auto;   
 }
 
 
