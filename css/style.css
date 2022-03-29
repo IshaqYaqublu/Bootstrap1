@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Mono', monospace}
+
+.header-mobile{
+    display: none;
+}
+.header-windows{
+    display: block;
+}
+@media (max-width:768px){
+    .header-mobile{
+        display: block;
+        font-size: 13px;
+    }
+    .header-windows{
+        display:none;
+    }
+    
+
+}
+
+
+
+
+
